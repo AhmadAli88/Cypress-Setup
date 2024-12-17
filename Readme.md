@@ -1,4 +1,11 @@
 
+## Command to remove node modules from github
+
+git rm -r --cached node_modules
+git commit -m "Remove node_modules from the repository"
+
+If node_modules is already being tracked, you may need to remove it from the Git index
+
 # Cypress Installation and Usage Guide
 
 This guide explains how to install Cypress in your project and run tests effectively.
@@ -58,3 +65,4 @@ npm run cypress:run
 
 ## Learn More
 Visit the [Cypress Documentation](https://docs.cypress.io) for more details.
+
